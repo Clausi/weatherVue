@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/normalize/normalize.css">
+    <link rel="stylesheet" href="css/milligram/milligram.css">
+    
+</head>
+<body>
+    <div id="app">
+        {{ response }}
+
+        <button v-on:click="getCurrentWeather">Test</button>
+    </div>
+
+    <script src="scripts/vue/vue.js"></script>
+    <script src="scripts/axios/axios.js"></script>
+    <script src="scripts/vue-axios/vue-axios.es5.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
